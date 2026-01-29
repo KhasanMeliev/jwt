@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-dotenv.config({ quiet: true, path: "./config/.env" });
+dotenv.config({ quiet: true, path: "./.env" });
 import cookieParser from "cookie-parser";
 import connectDB from "./config/mongoDB.js";
 
