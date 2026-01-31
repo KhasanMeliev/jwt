@@ -15,7 +15,7 @@ export const getUserData = async (req, res) => {
         name: user.name,
         isAccountVerified: user.isAccountVerified,
         email: user.email,
-        createdAt: user.createdAt,
+        createdAt: user.createdAt, 
       },
     });
   } catch (error) {
